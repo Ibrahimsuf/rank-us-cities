@@ -1,0 +1,260 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-attachment: fixed;
+	background-image: url(/static/media/background.6126e2dcab068c793141.jpg);
+	background-size: cover;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	margin: 0;
+	min-height: 100vh
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+.topLevelContainer {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0 2em
+}
+
+@media (max-width:600px) {
+	.topLevelContainer {
+		font-size: .8em
+	}
+}
+
+.HotOrNot_title__vcu2q {
+	font-size: 2em;
+	font-weight: 700;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center
+}
+
+.HotOrNot_subtitle__6jgbx {
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 0 0 .5em;
+	text-align: center
+}
+
+.HotOrNot_footnote__LZrKq {
+	font-size: 1em;
+	font-weight: 400;
+	margin: 0 0 .5em;
+	text-align: center
+}
+
+.HotOrNot_senators__7TyGU {
+	display: flex;
+	flex-direction: row;
+	gap: 5vw
+}
+
+.HotOrNot_senator__SE2R3 {
+	align-items: center;
+	background-color: #fff;
+	border: solid #ccc;
+	border-radius: 4px;
+	border-width: 1px 1px 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1em;
+	padding: .5em
+}
+
+.HotOrNot_senator__SE2R3:hover {
+	background-color: #eee;
+	cursor: pointer
+}
+
+.HotOrNot_senator__SE2R3:active {
+	background-color: #ddd;
+	border-bottom: 1px solid #ccc
+}
+
+.HotOrNot_profile__-XPYv {
+	border-radius: 2px;
+	max-width: 30vw;
+	width: 300px
+}
+
+.HotOrNot_skipButton__bAJnP {
+  display: inline-block;          
+  text-align: center;             
+  text-decoration: none;           
+  cursor: pointer;       
+	background-color: #fff;
+	border: solid #ccc;
+	border-radius: 4px;
+	border-width: 1px 1px 2px;
+	color: #333;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 1em 1em 2em;
+	padding: .5em
+}
+
+.HotOrNot_skipButton__bAJnP:hover {
+	background-color: #eee;
+	cursor: pointer
+}
+
+.HotOrNot_skipButton__bAJnP:active {
+	background-color: #ddd;
+	border-bottom: 1px solid #ccc
+}
+
+@media (max-width:600px) {
+	.RankingPage_page__6wkpO {
+		font-size: .8em
+	}
+}
+
+.RankingPage_title__8c-ux {
+	font-size: 2em;
+	font-weight: 700;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center
+}
+
+.RankingPage_subtitle__bMPLk {
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 0 0 .5em;
+	text-align: center
+}
+
+.RankingPage_voteCount__Moesi {
+	font-size: 1.2em;
+	margin: 0 0 .5em
+}
+
+.RankingPage_page__6wkpO,
+.RankingPage_rankings__E4m\+r {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center
+}
+
+.RankingPage_rankings__E4m\+r {
+	max-width: 100vw;
+	width: 100%
+}
+
+.RankingPage_selection__4l1hy {
+	margin: 1em
+}
+
+.RankingPage_ranking__v-35i {
+	flex-direction: column;
+	max-width: 100vw;
+	width: 100%
+}
+
+.RankingPage_ranking__v-35i,
+.RankingPage_senator__Eh21X {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 1em
+}
+
+.RankingPage_senator__Eh21X {
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px 1px rgba(0, 0, 0, .25);
+	flex-direction: row;
+	max-width: 80%;
+	overflow: hidden;
+	width: 800px
+}
+
+.RankingPage_profile__fnynS {
+	max-width: 30vw;
+	width: 200px
+}
+
+.RankingPage_senatorInfo__hJkST {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1em;
+	max-width: 100vw;
+	width: 100%
+}
+
+.RankingPage_senatorName__A\+-Zh {
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: .5em
+}
+
+.RankingPage_senatorDetail__MaBxb {
+	font-size: 1.2em;
+	margin: .5em
+}
+
+.Layout_header__d1tn0 {
+	align-items: center;
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 1em 0;
+	width: 100%
+}
+
+.Layout_headerLink__EFj6E {
+	background-color: #fff;
+	border: solid #ccc;
+	border-radius: 4px;
+	border-width: 1px 1px 2px;
+	color: #000;
+	padding: .5em;
+	text-decoration: none
+}
+
+.Layout_headerLink__EFj6E:hover {
+	background-color: #eee;
+	cursor: pointer
+}
+
+.Layout_headerLink__EFj6E:active {
+	background-color: #ddd;
+	border-bottom: 1px solid #ccc
+}
+
+.Layout_container__YkYW9 {
+	background-color: #fbfbfb;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	margin: 0 auto;
+	max-width: 60em;
+	width: 100vw
+}

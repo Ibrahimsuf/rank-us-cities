@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Best of the Best</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <body>
+     <div class="Layout_container__YkYW9">
+       <div class="Layout_header__d1tn0">
+          <%= link_to "Vote", new_comparison_path, class: "Layout_headerLink__EFj6E" %>
+          <%= link_to "Rankings", cities_index_path, class: "Layout_headerLink__EFj6E" %>
+        </div>
+        <%= yield %>
+      </div>
+  </body>
+</html>

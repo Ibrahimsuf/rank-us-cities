@@ -1,0 +1,60 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
+#   Character.create(name: "Luke", movie: movies.first)
+# Seed data for cities
+City.create([
+  { name: 'New York, NY', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Los Angeles, CA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Chicago, IL', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Houston, TX', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Phoenix, AZ', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Philadelphia, PA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'San Antonio, TX', wins: 0, loses: 0, elo: 1200 },
+  { name: 'San Diego, CA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Dallas, TX', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Jacksonville, FL', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Austin, TX', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Fort Worth, TX', wins: 0, loses: 0, elo: 1200 },
+  { name: 'San Jose, CA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Columbus, OH', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Charlotte, NC', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Indianapolis, IN', wins: 0, loses: 0, elo: 1200 },
+  { name: 'San Francisco, CA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Seattle, WA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Denver, CO', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Oklahoma City, OK', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Nashville, TN', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Washington, DC', wins: 0, loses: 0, elo: 1200 },
+  { name: 'El Paso, TX', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Las Vegas, NV', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Boston, MA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Detroit, MI', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Portland, OR', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Louisville, KY', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Memphis, TN', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Baltimore, MD', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Milwaukee, WI', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Albuquerque, NM', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Tucson, AZ', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Fresno, CA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Sacramento, CA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Mesa, AZ', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Atlanta, GA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Kansas City, MO', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Colorado Springs, CO', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Omaha, NE', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Raleigh, NC', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Miami, FL', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Virginia Beach, VA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Long Beach, CA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Oakland, CA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Minneapolis, MN', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Bakersfield, CA', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Tulsa, OK', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Tampa, FL', wins: 0, loses: 0, elo: 1200 },
+  { name: 'Arlington, TX', wins: 0, loses: 0, elo: 1200 }
+])
