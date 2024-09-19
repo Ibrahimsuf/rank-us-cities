@@ -11,7 +11,7 @@ def download_image(url, file_name):
             file.write(response.content)
 
 # Initialize Wikipedia API
-wiki = wikipediaapi.Wikipedia('en')
+wiki = wikipediaapi.Wikipedia('Rank US Cities')
 
 # List of the largest 50 metropolitan areas in the US
 metropolitan_areas = [
