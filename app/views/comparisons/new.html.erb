@@ -1,33 +1,33 @@
 <div></div>
   <div class="app">
       <div class="topLevelContainer">
-        <h1 class="HotOrNot_title__vcu2q">Best of the Best</h1>
-        <h2 class="HotOrNot_subtitle__6jgbx">What's the Best US City</h2>
-        <div class="HotOrNot_senators__7TyGU" onclick="document.getElementById('City1Form').submit()">
-            <div class="HotOrNot_senator__SE2R3">
+        <h1 class="title">Best of the Best</h1>
+        <h2 class="subtitle">What's the Best US City</h2>
+        <div class="cities" onclick="document.getElementById('City1Form').submit()">
+            <div class="city_block">
             <%= form_with(url: comparisons_path, method: :post, local: true, id: "City1Form") do |form| %>
               <div class="actions" onclick="document.getElementById('City1Form').submit()">
                 <!-- Button for City 1 as the winner -->
                 <%= form.hidden_field :city1_id, value: @city1.id %>
                 <%= form.hidden_field :city2_id, value: @city2.id %>
-                <%= form.submit :type => :image, :src => asset_path(@city1.image_name), class: "HotOrNot_profile__-XPYv"%>
-                <h2 class="HotOrNot_title__vcu2q"><%=@city1.name%></h2>
+                <%= form.submit :type => :image, :src => asset_path(@city1.image_name), class: "city_image"%>
+                <h2 class="title"><%=@city1.name%></h2>
               </div>
           <% end %>
         </div>
-        <div class="HotOrNot_senator__SE2R3" onclick="document.getElementById('City2Form').submit()">
+        <div class="city_block" onclick="document.getElementById('City2Form').submit()">
           <%= form_with(url: comparisons_path, method: :post, local: true, id: "City2Form") do |form| %>
             <div class="actions">
               <%= form.hidden_field :city1_id, value: @city2.id %>
               <%= form.hidden_field :city2_id, value: @city1.id %>
-              <%= form.submit :type => :image, :src => asset_path(@city2.image_name), class: "HotOrNot_profile__-XPYv"%>
-              <h2 class="HotOrNot_title__vcu2q"><%=@city2.name%></h2>
+              <%= form.submit :type => :image, :src => asset_path(@city2.image_name), class: "city_image"%>
+              <h2 class="title"><%=@city2.name%></h2>
             </div>
           <% end %>
         </div>
         </div>
         <div>
-          <%= link_to "Skip", new_comparison_path, class: "HotOrNot_skipButton__bAJnP" %>
+          <%= link_to "Skip", new_comparison_path, class: "skip_button" %>
         </div>
       </div>
   </div>

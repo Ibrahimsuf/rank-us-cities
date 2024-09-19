@@ -10,10 +10,10 @@
     <%= javascript_importmap_tags %>
   </head>
   <body>
-     <div class="Layout_container__YkYW9">
-       <div class="Layout_header__d1tn0">
-          <%= link_to "Vote", new_comparison_path, class: "Layout_headerLink__EFj6E" %>
-          <%= link_to "Rankings", cities_index_path, class: "Layout_headerLink__EFj6E" %>
+     <div class="link_container">
+       <div class="top_links">
+          <%= link_to "Vote", new_comparison_path, class: "link_box" %>
+          <%= link_to "Rankings", cities_index_path, class: "link_box" %>
         </div>
         <%= yield %>
       </div>

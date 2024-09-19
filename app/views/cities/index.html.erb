@@ -1,17 +1,17 @@
 <div>
-  <div class="RankingPage_page__6wkpO">
-    <h1 class="RankingPage_title__8c-ux">Best of the Best</h1>
-    <h2 class="RankingPage_subtitle__bMPLk">Best Cities in the United States</h2>
-    <h4 class="RankingPage_subtitle__bMPLk">(With Top 50 Population)</h4>
+  <div class="ranking_page_font">
+    <h1 class="ranking_page_title">Best of the Best</h1>
+    <h2 class="ranking_page_subtitle">Best Cities in the United States</h2>
+    <h4 class="ranking_page_subtitle">(With Top 50 Population)</h4>
     <div class="RankingPage_rankings__E4m+r">
       <% @cities.each do |city| %>
-        <div class="RankingPage_ranking__v-35i">
-          <div class="RankingPage_senator__Eh21X">
-            <%= image_tag city.image_name, class: "RankingPage_profile__fnynS" %>
-            <div class="RankingPage_senatorInfo__hJkST">
-              <div class="RankingPage_senatorName__A+-Zh"><%= city.name %></div>
-              <div class="RankingPage_senatorDetail__MaBxb">Record: <%= city.wins %>-<%= city.loses %></div>
-              <div class="RankingPage_senatorDetail__MaBxb">Elo: <%= city.elo %></div>
+        <div class="ranking_box">
+          <div class="ranking_div">
+            <%= image_tag city.image_name, class: "ranking_profile_image" %>
+            <div class="info">
+              <div class="name"><%= city.name %></div>
+              <div class="profile_text">Record: <%= city.wins %>-<%= city.loses %></div>
+              <div class="profile_text">Elo: <%= city.elo %></div>
             </div>
           </div>
         </div>
